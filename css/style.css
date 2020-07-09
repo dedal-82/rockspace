@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #000;
+  background-color: #fff;
   position: absolute;
   top: 0;
   right: 0;
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   width: 100%;
   height: 1px;
-  background-color: #000;
+  background-color: #fff;
   position: absolute;
   left: 0;
   z-index: 1;
@@ -1019,7 +1019,7 @@ text-align: center;
 /* Table */
 
 .table {
-  display: none;
+  /* display: none; */
 }
 .table__logo {
   width: 50px;
@@ -1063,12 +1063,18 @@ text-align: center;
 }
 
   .intro__subtitle {
+    margin: 10px auto;
     font-size: 14px;
   }
 
+  .intro__subtitle:after {
+      margin: 10px auto;
+  }
+
+
   .intro__title {
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 70px;
   }
 
 /* Section */
