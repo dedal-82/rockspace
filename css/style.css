@@ -371,75 +371,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #fafafa;
 }
 
-/* Nav toggle */
-/* .chat-nav-toggle {
-  display: none;
-  width: 30px;
-  padding: 10px 0;
-  font-size: 0;
-  color: transparent;
-
-  border: 0;
-  background: none;
-  cursor: pointer;
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  z-index: 1;
-}
-
-.chat-nav-toggle:focus {
-  outline: 0;
-}
-
-.chat-nav-toggle__item {
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-
-  transition: backgraund .2s linear;
-}
-
-.chat-nav-toggle.active .chat-nav-toggle__item {
-  background: none;
-}
-
-.chat-nav-toggle.active .chat-nav-toggle__item::before {
-  transform-origin: left top;
-  transform: rotate(45deg) translate3d(0,-2px,0);
-}
-
-.chat-nav-toggle.active .chat-nav-toggle__item::after {
-  transform-origin: left bottom;
-  transform: rotate(-45deg) translate3d(0px,3px,0);
-}
-
-.chat-nav-toggle__item::before {
-  top: -8px;
-}
-
-.chat-nav-toggle__item::after {
-  bottom: -8px;
-}
-.chat-nav-toggle__item::before, .chat-nav-toggle__item::after {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  z-index: 1;
-
-  transition: transform .2s linear;
-}
- */
 
 /* Button */
 .btn {
@@ -713,8 +644,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Social */
 
-
-
 .about__contact {
   display: flex;
   justify-content: flex-end;
@@ -931,7 +860,10 @@ text-align: center;
 
 }
 
-
+.other {
+  text-align: center;
+  font-size: 20px;
+}
 .pozitive:hover {
   color: brown;
 }
