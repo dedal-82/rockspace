@@ -341,6 +341,18 @@ h1, h2, h3, h4, h5, h6 {
     transition: color .1s linear;
 }
 
+.whatsapp {
+  color: #25d366;
+}
+
+.viber {
+  color: #665CAC;
+}
+
+.telegram {
+  color: #0088cc;
+}
+
 .chat-nav__link:after {
     content: "";
     display: block;
