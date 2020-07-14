@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 100vh;
   overflow: hidden;
   position: relative;
-  /* background: url("../images/cover/cover.jpg") center no-repeat; */
+  background: url("../images/cover/cover.jpg") center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
 }
