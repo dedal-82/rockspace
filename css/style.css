@@ -33,9 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 100%;
   height: 100%;
-
   background-color: rgba(0,0,0,.2);
-
   position: absolute;
   top: 0;
   left: 0;
@@ -476,6 +474,60 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: #999;
 }
+
+/* Special proposition */
+
+.special {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.special__item {
+  width: 50%;
+  height: 200px;
+  text-align: center;
+}
+
+.polygon__1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  color: #fff;
+  background-color: #ff7b17;
+  border: solid 2px #fff;
+-webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+}
+
+.polygon__x {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top:60px;
+  left: 35%;
+}
+
+.polygon__text {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.polygon__2 {
+  width: 100%;
+  height: 100%;
+
+  color: #fff;
+  background-color: #ff0000;
+  border: solid 2px #fff;
+/* -webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%); */
+  clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+
+
 
 /* About-skin logo*/
 .about-skin {
