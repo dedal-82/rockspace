@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
 .special__social {
   background-color: #98daf3;
   margin: 0 30px 20px 30px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
@@ -1352,6 +1352,10 @@ text-align: center;
 }
 .special__social--title {
   font-size: 16px;
+}
+.special__social {
+  margin: 10px;
+  padding: 10px;
 }
 /* QA */
 .qa__item {
